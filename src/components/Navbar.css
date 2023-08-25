@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 60px;
+  justify-content: space-between;
+  /* background-color: rgb(235, 227, 217); */
+  z-index: 1;
+  border-bottom: 2px solid black;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.Logo {
+  justify-items: start;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  text-transform: uppercase;
+  padding-left: 10px;
+  color: blue;
+}
+.navbarItems {
+  list-style: none;
+  justify-items: end;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-right: 10px;
+  font-size: medium;
+}
+li {
+  padding-left: 20px;
+}
+
+.navbarItems li:hover {
+  color: red;
+  text-decoration: underline;
+}

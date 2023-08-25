@@ -1,0 +1,47 @@
+.sectionTab {
+  display: flex;
+  height: 70vh;
+  /* border: solid; */
+  padding-left: 30px;
+  padding-right: 40px;
+}
+.imgData {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.imagetext {
+  width: 80%;
+}
+.detailedData {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: end; */
+}
+.parasec {
+  justify-content: end;
+}
+.btn {
+  display: flex;
+  /* background-color: antiquewhite; */
+  padding: 5px;
+  width: 70%;
+  height: 40px;
+  justify-content: space-around;
+  border-radius: 4px;
+}
+.buttons {
+  border: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  background-color: #fd4800;
+  opacity: 1;
+  width: 200px;
+  color: antiquewhite;
+  margin: 3px;
+}
